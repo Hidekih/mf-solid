@@ -1,13 +1,15 @@
+/** @jsxImportSource solid-js */
 import { render } from "solid-js/web";
+import { Component } from "solid-js";
 
 import "./index.css";
+import Home from './Pages/Home'
 
-const App = () => (
-  <div class="container">
-    <div>Name: solid</div>
-    <div>Framework: solid-js</div>
-    <div>Language: TypeScript</div>
-    <div>CSS: Empty CSS</div>
-  </div>
-);
-render(App, document.getElementById("app"));
+const App: Component = () => {
+    return (
+        <>
+			<Home></Home>
+        </>
+    )
+};
+render(() => <App />, document.getElementById("app")!);
