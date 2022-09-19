@@ -6,7 +6,7 @@ import './styles.css';
 const Home: Component = () => {
     return (
         <>
-            <h1>Titulo</h1>
+            <h1 class='text-emerald-600 font-bold'>Titulo</h1>
         </>
     );
 };

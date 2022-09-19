@@ -8,7 +8,7 @@ import Home from './Pages/Home'
 const App: Component = () => {
     return (
         <>
-			<Home></Home>
+			<Home/>
         </>
     )
 };
